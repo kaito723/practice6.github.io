@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.header-right li{
+  float:left;
+  line-height: 100px;
+  text-align: center;
+}
+header{
+  position:fixed;
+  width:100%;
+  z-index: 2;
+  background-color: #fff;
+}
+header a{
+  display: block;
+  height:60px;
+  color:#008000;
+  font-size:12px;
+  line-height: 60px;
+  background-color: #fff;
+  margin-top: 20px;
+  border:solid 1px #008000;
+}
+header a:hover{
+  color:#fff;
+  background-color: #008000;
+  border:solid 1px #fff;
+}
+.top-wrapper{
+  text-align: center;
+  width:100%;
+  margin-bottom:80px;
+}
+.top-wrapper .container{
+  margin: 0;
+}
+.top{
+  position:relative;
+}
+.president-coment{
+  width:50%;
+  position:absolute;
+  top:20%;
+  right:0;
+  background-color: rgba(0,128,0,.5);
+  line-height: 35px;
+}
+.president-coment p{
+  font-size: 18px;
+}
+.job-introduce{
+  text-align: center;
+}
+.departments{
+  width:100%;
+}
+.department{
+  float:left;
+  padding:15px 0;
+}
+.strength-wrap{
+  margin:100px 0;
+}
+.performance-wrap{
+  margin-bottom:100px;
+}
+.strong{
+  background-color: #00aa00;
+  height: 430px;
+  border-radius:5px;
+}
+.strong h4{
+  line-height: 35px;
+  padding-top: 20px;
+  color:#fff;
+}
+.performance:hover{
+   opacity: .7;
+}
+.philosophy-wrap{
+  background-image: url("http://www.nakayoshi.jp/wp/wp-content/themes/nakayoshi/img/hd-company.jpg");
+  width:100%;
+  background-size: cover;
+  padding:30px 0;
+}
+.mission-wrap{
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/25/23/30/home-1353389_960_720.jpg");
+  width:100%;
+  margin-top:100px;
+  background-size: cover;
+}
+.mission{
+  height:100%;
+  background-color: rgba(255,255,255,.8);
+}
+.mission-text p{
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+  color:#808000;
+  text-decoration: underline;
+}
+.employee{
+  background-color: rgba(0,128,0,.1);
+}
+.questions {
+  border-bottom: solid 1px #000;
+  margin:20px 0;
+}
+.questions:hover{
+  cursor: pointer;
+}
+.answer{
+  margin-top:30px;
+  display: none;
+}
+.about-company{
+  margin-top: 100px;
+}
+.company-table{
+  margin: 50px 0;
+}
+.company-table th{
+  width:200px;
+  background-color: #c0c0c0;
+  padding-left:10px;
+}
+.company-table td{
+  background-color: #eeeeee;
+  padding-left:10px;
+}
+.company-table tr{
+  border-top:solid 3px #fff;
+  height:80px;
+}
+.map-wrap{
+  margin-bottom:100px;
+}
+.footer-ul{
+  display: flex;
+}
+footer{
+  background-color:#c0c0c0;
+  padding-top:40px;
+  padding-bottom:10px;
+}
+.fa-angle-double-up:hover{
+  cursor:pointer;
+}
+.return-top{
+  width:100%;
+  height:30px;
+}
+.fa-angle-double-up{
+  position:fixed;
+  top:450px;
+  margin-left: 1150px;
+  display: none;
+  z-index: 3;
+  transform: translate3d(0, 0, 0);
+}
+
+.zdo_drawer_menu{
+  display:none;
+}
+
+/*rersponsive*/
+@media (max-width:767px){
+  .header-right{
+    display: none;
+  }
+  .president-coment{
+    line-height:8px;
+    width: 100%;
+    position: static;
+  　top:0;
+    padding-bottom: 5px
+  }
+  .president-coment p{
+    font-size: 8px;
+  }
+  .president-coment h3{
+    font-size: 10px;
+  }
+  .strength{
+    margin:30px 0;
+  }
+  .footer-ul{
+    display: block;
+  }
+  .department h4{
+    font-size: 12px;
+  }
+  .fa-angle-double-up{
+    top:600px;
+    margin-left:320px;
+  }
+  .zdo_drawer_menu{
+    display:block;
+  }
+  .zdo_drawer_button{
+
+  }
+}
